@@ -6,6 +6,7 @@ import {
   updateProduct,
 } from "../controller/ProductController.js";
 import upload from "../middleware/multer.js";
+// import verifyToken from "../middleware/Verifytoken.js";
 
 const router = express.Router();
 
